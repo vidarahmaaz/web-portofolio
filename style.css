@@ -41,6 +41,7 @@ nav {
   border-bottom: 1px solid #364f6b;
 }
 
+
 nav a {
   float: right;
   text-align: center;
@@ -102,21 +103,11 @@ section {
 h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
-  font-size: 45px;
+  font-size: 25px;
   margin-bottom: 20px;
   color: black;
   width: 100%;
   line-height: 50px;
-}
-
-a.tbl-biru {
-  background: #3f72af;
-  border-radius: 20px;
-  margin-top: 20px;
-  padding: 15px 20px 15px 20px;
-  color: #ffffff;
-  cursor: pointer;
-  font-weight: bold;
 }
 
 p {
