@@ -234,3 +234,53 @@ h3 {
     width: 50%;
   }
 }
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content a {
+    font-size: 20px ;
+    background: #DA2032;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+    transition: .5s;
+}
+.content a:hover {
+    background: transparent;
+    border: 2px solid #DA2032;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 50px;
+    align-items: center;
+    grid-gap: 15px
+}
+
+img {
+    object-fit: cover;
+}
+
+.grid > article{
+    box-shadow: 7px 2px 2px 0px rgb(0, 0, 0) ;
+    border-radius: 15px;
+    text-align: center;
+    background: rgb(247, 246, 246);
+    width: 150px;
+    transition: transform;
+}
+
+.grid > article img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.grid > article:hover {
+    transform: scale(0.8);
+}
