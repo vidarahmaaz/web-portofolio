@@ -127,17 +127,17 @@ p {
   flex-wrap: wrap;
 }
 
-.kartu-tutor {
+.doc-port {
   width: 20%;
   margin: 0 auto;
 }
 
-.kartu-tutor img {
+.doc-port img {
   width: 80%;
   border-radius: 50%;
 }
 
-.kartu-tutor p {
+.doc-port p {
   font-family: "comic sans ms";
   font-weight: 800;
   font-size: 25px;
