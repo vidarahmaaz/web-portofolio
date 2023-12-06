@@ -258,7 +258,7 @@ h3 {
 .grid {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    margin: 50px;
+    margin: 10px;
     align-items: center;
     grid-gap: 15px
 }
